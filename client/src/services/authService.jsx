@@ -4,7 +4,7 @@ import axios from 'axios'
 // Instead of writing the full URL every time (http://localhost:5000/api/...),
 // we create a configured instance so all calls are relative: /api/auth/login
 const API = axios.create({
-  baseURL: 'https://loginapp-production-2872.up.railway.app/api',
+  baseURL: '/api',
 })
 
 // ─── Request Interceptor ──────────────────────────────────────
