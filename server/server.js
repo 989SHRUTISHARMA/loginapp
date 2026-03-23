@@ -18,7 +18,9 @@ app.use(express.json());
 // Allows frontend (React) to communicate with this backend
 // Without this, browser blocks cross-origin requests
 app.use(cors({
-  origin: 'https://loginapp-jade.vercel.app',
+  origin: ['https://loginapp-jade.vercel.app',
+      'http://localhost:3000'
+  ],
   credentials: true
 }));
 
