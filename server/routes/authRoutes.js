@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { registerUser, loginUser } = require('../controllers/authController');
+const { registerUser, loginUser } = require('../controllers/authcontroller');
 
 // POST /api/auth/register  → Create a new user account
 router.post('/register', registerUser);

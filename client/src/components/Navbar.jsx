@@ -36,7 +36,7 @@ const Navbar = () => {
           letterSpacing: '-0.02em',
         }}
       >
-        ◈User <span style={{ color: 'var(--text)' }}>Login</span>
+        ◈ Nexa <span style={{ color: 'var(--text)' }}>Login</span>
       </Link>
 
       {/* ── Nav Links ── */}
